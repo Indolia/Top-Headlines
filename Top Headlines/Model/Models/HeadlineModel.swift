@@ -63,7 +63,7 @@ struct HeadlineModel : JsonSerializable {
         let urlToImage = json["urlToImage"] as? String
         let content = json["content"] as? String
         self.init(source: source, author: author, title: title, description: description,url: url , urlToImage: urlToImage, publishedAt: publishedAt, content: content  )
-
+        
     }
     
 }

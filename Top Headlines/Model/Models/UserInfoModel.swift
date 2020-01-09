@@ -14,7 +14,7 @@ struct UserInfoModel {
     
 }
 
-// sign in logic
+//MARK: - sign in logic
 extension UserInfoModel {
     func signIn(completion:(Any?)->Void) {
       let userData =  IKeyChain.load(key: AppConstants.UserInfo.key)
@@ -27,7 +27,7 @@ extension UserInfoModel {
     }
 }
 
-// sign up logic
+//MARK: - sign up logic
 
 extension UserInfoModel {
     func signUp(completion:(Bool)->Void) {

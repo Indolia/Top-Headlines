@@ -10,7 +10,7 @@ import UIKit
 
 class HeadlinesTableViewController: UITableViewController {
    let headlineViewModel = HeadlinesViewModel()
-   let activityIndicator = UIActivityIndicatorView()
+    var activityIndicator: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
         uiSetup()
@@ -21,14 +21,24 @@ class HeadlinesTableViewController: UITableViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.registerNib(String(describing: HeadlineTableViewCell.self))
         self.navigationItem.setHidesBackButton(true, animated:true);
-        activityIndicator.hidesWhenStopped = true
-        activityIndicator.center = tableView.center
-        tableView.addSubview(activityIndicator)
-        activityIndicator.startAnimating()
+
+        activityIndicatorSetup()
+        
         headlineViewModel.delegate = self
         headlineViewModel.fetchLocalHeadline()
         headlineViewModel.getHeadlines()
+        
         addLogoutButton()
+    }
+    
+    func activityIndicatorSetup() {
+        activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.center = tableView.center
+        activityIndicator.tintColor = UIColor.skyBlue
+        activityIndicator.color = UIColor.skyBlue
+        tableView.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
     }
     
     func addLogoutButton() {

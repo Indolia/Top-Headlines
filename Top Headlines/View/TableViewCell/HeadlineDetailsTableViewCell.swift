@@ -32,7 +32,7 @@ class HeadlineDetailsTableViewCell: UITableViewCell {
     
     func configure(model: HeadlineModel) {
         titleLabel.text = model.title
-        headlineImage.setImage(for: model.urlToImage ?? "", placeholder: nil) { (image) in}
+        headlineImage.setImage(for: model.urlToImage, placeholder: nil) { (image) in}
         descriptionLabel.text = model.description
         authorLabel.text = model.author
         publishedAtLabel.text = model.publishedAt.toString

@@ -30,7 +30,6 @@
 		1DE9A7F723C627F8007F2776 /* HeadlineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A7F623C627F8007F2776 /* HeadlineRepository.swift */; };
 		1DE9A7F923C62A1E007F2776 /* HeadlineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A7F823C62A1E007F2776 /* HeadlineList.swift */; };
 		1DE9A7FB23C635E1007F2776 /* HeadlinesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A7FA23C635E1007F2776 /* HeadlinesTableViewController.swift */; };
-		1DE9A7FD23C643C8007F2776 /* Extention+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A7FC23C643C8007F2776 /* Extention+Date.swift */; };
 		1DE9A80323C65A52007F2776 /* HeadlineDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A80223C65A52007F2776 /* HeadlineDetailsTableViewController.swift */; };
 		1DE9A81023C6E5F8007F2776 /* HeadlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9A80C23C6E5F8007F2776 /* HeadlineTableViewCell.swift */; };
 		1DE9A81123C6E5F8007F2776 /* HeadlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9A80D23C6E5F8007F2776 /* HeadlineTableViewCell.xib */; };
@@ -85,7 +84,6 @@
 		1DE9A7F623C627F8007F2776 /* HeadlineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineRepository.swift; sourceTree = "<group>"; };
 		1DE9A7F823C62A1E007F2776 /* HeadlineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineList.swift; sourceTree = "<group>"; };
 		1DE9A7FA23C635E1007F2776 /* HeadlinesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesTableViewController.swift; sourceTree = "<group>"; };
-		1DE9A7FC23C643C8007F2776 /* Extention+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extention+Date.swift"; sourceTree = "<group>"; };
 		1DE9A80223C65A52007F2776 /* HeadlineDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineDetailsTableViewController.swift; sourceTree = "<group>"; };
 		1DE9A80C23C6E5F8007F2776 /* HeadlineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadlineTableViewCell.swift; sourceTree = "<group>"; };
 		1DE9A80D23C6E5F8007F2776 /* HeadlineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadlineTableViewCell.xib; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 		1DE9A7F023C627BE007F2776 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1DE9A7FC23C643C8007F2776 /* Extention+Date.swift */,
 				1DE9A7F123C627BE007F2776 /* HeadlineModel.swift */,
 				1DE9A7F223C627BE007F2776 /* UserInfoModel.swift */,
 				1DE9A7F823C62A1E007F2776 /* HeadlineList.swift */,
@@ -569,7 +566,6 @@
 				1DE9A7FB23C635E1007F2776 /* HeadlinesTableViewController.swift in Sources */,
 				1D0080B223C4BDC700B72C6E /* HeadlineDetailsViewModel.swift in Sources */,
 				1DE9A82823C6EC03007F2776 /* Headline+CoreDataProperties.swift in Sources */,
-				1DE9A7FD23C643C8007F2776 /* Extention+Date.swift in Sources */,
 				1DE9A80323C65A52007F2776 /* HeadlineDetailsTableViewController.swift in Sources */,
 				1DE9A7F723C627F8007F2776 /* HeadlineRepository.swift in Sources */,
 				1D0080AC23C4BAD900B72C6E /* WelcomeViewController.swift in Sources */,

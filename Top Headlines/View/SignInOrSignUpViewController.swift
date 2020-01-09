@@ -92,7 +92,6 @@ extension SignInOrSignUpViewController : SignInOrSignUPViewModelDelegate {
         passwordTextField.text = nil
        let headlinesTableViewController = HeadlinesTableViewController.get(with: AppConstants.ViewControllerStotyboardId.headlinesTableViewController, storyboard: AppConstants.Storyboard.main)
         navigationController?.pushViewController(headlinesTableViewController!, animated: true)
-
     }
     
 }
